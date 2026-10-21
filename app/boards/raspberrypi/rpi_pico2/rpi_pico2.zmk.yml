@@ -1,0 +1,9 @@
+file_format: "1"
+id: rpi_pico2//zmk
+name: Raspberry Pi Pico 2
+type: board
+arch: arm
+exposes: [rpi_pico]
+outputs:
+  - usb
+url: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family

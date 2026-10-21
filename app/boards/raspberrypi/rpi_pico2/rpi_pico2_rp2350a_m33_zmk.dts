@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2026 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <../boards/raspberrypi/rpi_pico2/rpi_pico2_rp2350a_m33.dts>
+#include <arm/raspberrypi/rp2350-boot-mode-retention.dtsi>
+
+&uart0 { status = "disabled"; };

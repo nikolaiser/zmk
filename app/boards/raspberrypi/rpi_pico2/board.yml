@@ -1,0 +1,5 @@
+board:
+  extend: rpi_pico2
+  variants:
+    - name: zmk
+      qualifier: rp2350a/m33

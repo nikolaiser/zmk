@@ -1,0 +1,15 @@
+file_format: "1"
+id: rpi_pico
+name: Raspberry Pi Pico
+type: interconnect
+url: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+manufacturer: Raspberry Pi
+description: |
+  The 40 pin header of the Raspberry Pi Pico and Pico 2. Many pin compatible controllers, such as
+  the WeAct RP2040 and Waveshare RP2350-Plus, are also available.
+node_labels:
+  gpio: pico_header
+  uart: pico_serial
+design_guideline: |
+  ZMK uses the "GP"-prefixed pin names, e.g. `GP2`, to generate devicetree node references. For example,
+  to refer to the pin labeled `GP2`, use `&pico_header 2` in the devicetree files.
