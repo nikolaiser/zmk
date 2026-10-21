@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2026 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "piantor.dtsi"
+
+&kscan0 {
+    input-gpios
+        = <&pico_header  5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        , <&pico_header 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+        ;
+};
